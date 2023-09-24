@@ -56,9 +56,13 @@ header {
   margin-left: 25px;
 }
 
-section {
+.photo {
+  width: 1250px;
+  height: 550px;
+  margin: -180px 0px 0px -300px;
+} 
 
-}
+
 
 p {
   font-size: 25px;
@@ -122,7 +126,7 @@ footer {
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   body {
     padding-left: -50px;
   }
