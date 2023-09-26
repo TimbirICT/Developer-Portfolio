@@ -57,10 +57,16 @@ header {
 }
 
 .photo {
-  width: 1250px;
+  width: 900px;
   height: 550px;
   margin: -180px 0px 0px -300px;
 } 
+
+.photo2 {
+  width: 600px;
+  height: 250px;
+  margin: -180px 400px 0px -200px;
+}
 
 
 
