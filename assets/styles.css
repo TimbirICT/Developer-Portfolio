@@ -1,5 +1,4 @@
 * {
-  height: 75px;
   margin: 0px;
 }
 
@@ -32,6 +31,8 @@ header {
   color: black;
   border-radius: 0 0 5px 5px;
 }
+
+
 
 .header h1 {
   padding: 10px;
@@ -68,15 +69,23 @@ header {
   margin: -180px 400px 0px -200px;
 }
 
+.photo3 {
+margin: 125px -400px 0px -200px;
+width: 600px;
+height: 250px;
+
+}
 
 
 p {
-  font-size: 25px;
+  font-size: 40px;
+  max-width: 850px;
 }
 
 h2 {
   max-width: 850px;
   font-weight: initial;
+  font-size: 40px;
 
 }
 
@@ -88,11 +97,17 @@ h2 {
   font-family: "Calibri";
   background-color: var(--light);
   color: var(--maintext);
+
+}
+
+.about-me div {
+  display:flex;
+  justify-content: space-between;
 }
 
 img {
-  margin-top: -95px;
-  float: right;
+  /*margin-top: -95px;*/
+  /*float: right;*/
   height: 400px;
   width: 400px;
   border-radius: 25px;
@@ -123,6 +138,7 @@ h1 {
 }
 
 footer {
+ 
 }
 
 @media (max-width: 768px) {
@@ -132,12 +148,21 @@ footer {
   }
 }
 
-@media (min-width: 600px) {
-  body {
-    padding-left: -50px;
+@media screen and (max-width:992px) {
+  p {
+    font-size: 20px;
+    
   }
-  header h1 {
-    font-size: 15px;
+  h2 {
+    font-size: 20px;
+    max-width: 90%;
   }
 
 }
+
+@media screen and (max-width:480px) {
+
+
+}
+
+
